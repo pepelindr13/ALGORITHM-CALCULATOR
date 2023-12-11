@@ -1,4 +1,6 @@
-
+body {
+  background-image:linear-gradient(to right, teal, black) ;
+}
 .box {
   background-image: linear-gradient(to right, #191919, #FA7070);
   color: white;
