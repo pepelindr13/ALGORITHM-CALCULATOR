@@ -1,0 +1,23 @@
+
+.box {
+  background-image: linear-gradient(to right, #191919, #FA7070);
+  color: white;
+  font-family: sans-serif;
+  max-width: 75vw;
+  border-radius: 10px;
+}
+
+.boxx {
+  background-image: linear-gradient(to right, green,rgb(255, 183, 0));
+  color: white;
+  font-family: sans-serif;
+  max-width: 75vw;
+  border-radius: 10px;
+}
+
+
+@media (max-width:475px) {
+   .box, .boxx {
+    max-width: 100vw;
+   }
+}
