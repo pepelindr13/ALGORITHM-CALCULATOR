@@ -1,4 +1,5 @@
 function check() {
+  let confirmation = confirm("Do you want to check number")
   if(num.value == '') {
     error.style.display = "block"
     message.style.display = "none"
@@ -9,21 +10,29 @@ function check() {
     error.innerHTML = "NUMBER CAN NOT BE NEGATIVE!!!"
     num.value = ''
   }
-  else if (num.value % 2 === 0 ){
-    message.innerHTML = num.value + " is an even number!"
-    message.style.display = "block"
-    error.style.display = "none"
-    num.value = ''
-  }else {
-    message.innerHTML = num.value + " is an odd number!"
-    message.style.display = "block"
-    error.style.display = "none"
-    num.value = ''
+  else if (confirmation = true){
+    if (num.value % 2 === 0 ){
+      message.innerHTML = num.value + " is an even number!"
+      message.style.display = "block"
+      error.style.display = "none"
+      num.value = ''
+    }else {
+  
+      message.innerHTML = num.value + " is an odd number!"
+      message.style.display = "block"
+      error.style.display = "none"
+      num.value = ''
+    }
   }
+
 }
 
 
 function checked() {
+  let confirmation = confirm("Do you want to check number")
+  if (confirmation = true){
+
+  }
   if(three.value == '') {
     errorr.style.display = "block"
     errmessage.style.display = "none"
